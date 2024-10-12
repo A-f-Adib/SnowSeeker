@@ -18,12 +18,23 @@ struct NewAlert: View {
     @State private var isShowing = false
     
     var body: some View {
-        Button("Tap") {
-            selectedUser = User()
-            isShowing = true
-        }
-        .alert("welcome", isPresented: $isShowing, presenting: selectedUser) { user in
-            Button(user.id) { }
+        VStack {
+            Button("Tap") {
+                selectedUser = User()
+                isShowing = true
+            }
+            .alert("welcome", isPresented: $isShowing, presenting: selectedUser) { user in
+                Button(user.id) { }
+            }
+            
+            Button("Tap two") {
+                selectedUser = User()
+                
+            }
+            .sheet(item: $selectedUser) { user in
+                Text(user.id)
+                    .presentationDetents([.medium, .large])
+            }
         }
     }
 }
