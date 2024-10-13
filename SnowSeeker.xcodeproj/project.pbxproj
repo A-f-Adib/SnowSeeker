@@ -14,6 +14,7 @@
 		74998C3B2CBAE2C300345027 /* NewAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74998C3A2CBAE2C300345027 /* NewAlert.swift */; };
 		74C47B0F2CBBF4B5008C5E9E /* MultiLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C47B0E2CBBF4B5008C5E9E /* MultiLayout.swift */; };
 		74C47B112CBBF6B0008C5E9E /* ViewThatFitss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C47B102CBBF6B0008C5E9E /* ViewThatFitss.swift */; };
+		74C47B132CBBF9E6008C5E9E /* SearchModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C47B122CBBF9E6008C5E9E /* SearchModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		74998C3A2CBAE2C300345027 /* NewAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAlert.swift; sourceTree = "<group>"; };
 		74C47B0E2CBBF4B5008C5E9E /* MultiLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLayout.swift; sourceTree = "<group>"; };
 		74C47B102CBBF6B0008C5E9E /* ViewThatFitss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitss.swift; sourceTree = "<group>"; };
+		74C47B122CBBF9E6008C5E9E /* SearchModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				74998C3A2CBAE2C300345027 /* NewAlert.swift */,
 				74C47B0E2CBBF4B5008C5E9E /* MultiLayout.swift */,
 				74C47B102CBBF6B0008C5E9E /* ViewThatFitss.swift */,
+				74C47B122CBBF9E6008C5E9E /* SearchModifier.swift */,
 			);
 			path = Docs;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				74C47B0F2CBBF4B5008C5E9E /* MultiLayout.swift in Sources */,
 				74998C2B2CBADBB000345027 /* SnowSeekerApp.swift in Sources */,
 				74998C3B2CBAE2C300345027 /* NewAlert.swift in Sources */,
+				74C47B132CBBF9E6008C5E9E /* SearchModifier.swift in Sources */,
 				74C47B112CBBF6B0008C5E9E /* ViewThatFitss.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
