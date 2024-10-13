@@ -26,7 +26,7 @@ struct SearchModifier: View {
     var body: some View {
         NavigationStack {
 //            Text("Searching for \(searchText)")
-            List(filterNames, id: \.self) { name in 
+            List(filterNames, id: \.self) { name in
                 Text(name)
             }
                 .searchable(text: $searchText, prompt: "Search Here")

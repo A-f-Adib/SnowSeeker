@@ -15,6 +15,7 @@
 		74C47B0F2CBBF4B5008C5E9E /* MultiLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C47B0E2CBBF4B5008C5E9E /* MultiLayout.swift */; };
 		74C47B112CBBF6B0008C5E9E /* ViewThatFitss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C47B102CBBF6B0008C5E9E /* ViewThatFitss.swift */; };
 		74C47B132CBBF9E6008C5E9E /* SearchModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C47B122CBBF9E6008C5E9E /* SearchModifier.swift */; };
+		74C47B152CBC0145008C5E9E /* EvObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C47B142CBC0145008C5E9E /* EvObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		74C47B0E2CBBF4B5008C5E9E /* MultiLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLayout.swift; sourceTree = "<group>"; };
 		74C47B102CBBF6B0008C5E9E /* ViewThatFitss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitss.swift; sourceTree = "<group>"; };
 		74C47B122CBBF9E6008C5E9E /* SearchModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModifier.swift; sourceTree = "<group>"; };
+		74C47B142CBC0145008C5E9E /* EvObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				74C47B0E2CBBF4B5008C5E9E /* MultiLayout.swift */,
 				74C47B102CBBF6B0008C5E9E /* ViewThatFitss.swift */,
 				74C47B122CBBF9E6008C5E9E /* SearchModifier.swift */,
+				74C47B142CBC0145008C5E9E /* EvObject.swift */,
 			);
 			path = Docs;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C47B152CBC0145008C5E9E /* EvObject.swift in Sources */,
 				74998C2D2CBADBB000345027 /* ContentView.swift in Sources */,
 				74C47B0F2CBBF4B5008C5E9E /* MultiLayout.swift in Sources */,
 				74998C2B2CBADBB000345027 /* SnowSeekerApp.swift in Sources */,
