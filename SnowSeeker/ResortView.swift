@@ -17,8 +17,21 @@ struct ResortView: View {
                 Image(decorative: resort.id)
                     .resizable()
                     .scaledToFit()
+                
+                Group{
+                    Text(resort.description)
+                        .padding(.vertical)
+                    
+                    Text("Facilities")
+                        .font(.headline)
+                    
+                    Text(resort.facilities.joined(separator: ", "))
+                        .padding(.vertical)
+                }
+                .padding(.horizontal)
             }
         }
+        .navigationTitle("\(resort.name), \(resort.country)")
     }
 }
 
