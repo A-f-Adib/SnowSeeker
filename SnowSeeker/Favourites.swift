@@ -20,4 +20,18 @@ class Favourites {
     func contains(_ resort: Resort) -> Bool {
         resorts.contains(resort.id)
     }
+    
+    func add(_ resort: Resort) {
+        resorts.insert(resort.id)
+        save()
+    }
+    
+    func remove(_ resort: Resort ) {
+        resorts.remove(resort.id)
+        save()
+    }
+    
+    func save() {
+        
+    }
 }
