@@ -66,6 +66,10 @@ struct ResortView: View {
             }
         }
         .navigationTitle("\(resort.name), \(resort.country)")
+        .alert(selectedFacility?.name ?? "More info", isPresented: $showingFacility, presenting: selectedFacility) { _ in
+        } message: { facility in
+            Text(facility.description)
+        }
     }
 }
 

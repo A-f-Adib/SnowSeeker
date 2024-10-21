@@ -19,7 +19,7 @@ struct Facility: Identifiable {
         "Family": "person.3"
     ]
     
-    private let description = [
+    private let descriptions = [
         "Accommodation" : "This resort has popular on-site accomodation.",
         "Beginners" : "This resort has lots of ski schools.",
         "Cross-country" : "This resorts has many cross-country ski routes.",
@@ -32,6 +32,14 @@ struct Facility: Identifiable {
             Image(systemName: iconName)
                 .accessibilityLabel(name)
                 .foregroundStyle(.secondary)
+        } else {
+            fatalError("Unknown facility type: \(name)")
+        }
+    }
+    
+    var description: String {
+        if let message = descriptions[name] {
+            message
         } else {
             fatalError("Unknown facility type: \(name)")
         }
