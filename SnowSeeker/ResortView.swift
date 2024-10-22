@@ -14,6 +14,8 @@ struct ResortView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.dynamicTypeSize) var dynamicTypeSize
     
+    @Environment(Favourites.self) var favourites
+    
     @State private var selectedFacility: Facility?
     @State private var showingFacility = false
     
@@ -63,6 +65,7 @@ struct ResortView: View {
                     .padding(.vertical)
                 }
                 .padding(.horizontal)
+              
             }
         }
         .navigationTitle("\(resort.name), \(resort.country)")
@@ -75,4 +78,5 @@ struct ResortView: View {
 
 #Preview {
     ResortView(resort: .example)
+        .environment(Favourites())
 }
