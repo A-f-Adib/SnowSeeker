@@ -46,6 +46,14 @@ struct ContentView: View {
                             Text("\(resort.runs) runs")
                                 .foregroundStyle(.secondary)
                         }
+                        
+                        if favourites.contains(resort) {
+                            Spacer()
+                            
+                            Image(systemName: "heart.fill")
+                                .accessibilityLabel("This is a favourite resort")
+                                .foregroundStyle(.red)
+                        }
                     }
                 }
             }
