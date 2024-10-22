@@ -65,7 +65,16 @@ struct ResortView: View {
                     .padding(.vertical)
                 }
                 .padding(.horizontal)
-              
+                
+                Button(favourites.contain(resort) ? "Remove from Favourites" : "Add to Favourites") {
+                    if favourites.contains(resort) {
+                        favourites.remove(resort)
+                    } else {
+                        favourites.add(resort)
+                    }
+                }
+                .buttonStyle(.borderedProminent)
+                .padding()
             }
         }
         .navigationTitle("\(resort.name), \(resort.country)")
